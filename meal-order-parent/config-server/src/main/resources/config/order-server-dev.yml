@@ -22,6 +22,8 @@ eureka:
     lease-renewal-interval-in-seconds: 5
     # 10秒不发送就过期
     lease-expiration-duration-in-seconds: 10
+    # 由于有context-path属性,所以需要修改健康监控页地址,否则在注册中心点击时不带有context-path路径
+    status-page-url: http://localhost:${server.port}/${server.servlet.context-path}/actuator/info
 
 # 在服务注册中心点击已注册的服务名时提示的服务信息
 info:

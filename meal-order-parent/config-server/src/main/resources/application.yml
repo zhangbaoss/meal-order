@@ -3,21 +3,25 @@ server:
 spring:
   application:
     name: config-server
-  # 从本地读取配置文件,可选git,svn...
+  # 从哪里读取配置文件,可选git,svn, native(本地)...
   profiles:
-    active: native
+    active: git
   cloud:
     config:
       server:
+        # 如果profiles.active=native则是下面的配置
         native:
           # 其它微服务获取的配置文件位置
           search-locations: classpath:/config
+        # 如果profiles.active=git则是下面的配置
         git:
-          uri:
-          username:
-          password:
+          uri: https://github.com/zhangbaoss/meal-order.git
+          username: zhangbaoss
+          password: Zb19931112
           force-pull: true
           default-label: master
+          # git下的哪个目录
+          search-paths: "/config-git"
 logging:
   level:
     root: info
