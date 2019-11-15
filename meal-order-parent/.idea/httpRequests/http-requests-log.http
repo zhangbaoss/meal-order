@@ -1,0 +1,456 @@
+GET http://localhost:7005/client/server/menu/get/2
+Accept: */*
+Cache-Control: no-cache
+content-type: application/json
+
+{     "id" : 28, "name" : "豆腐干",     "price" : 8.8,     "flavor" : "五香",     "tid" : 2 }
+
+<> 2019-11-14T100239.200.json
+
+###
+
+GET http://118.190.162.48:7000/zuul/server/client/client/server/menu/get/2
+Accept: */*
+Cache-Control: no-cache
+content-type: application/json
+
+{     "id" : 28, "name" : "豆腐干",     "price" : 8.8,     "flavor" : "五香",     "tid" : 2 }
+
+<> 2019-11-14T093907.500.json
+
+###
+
+GET http://localhost:7000/zuul/server/client/client/server/menu/get/2
+Accept: */*
+Cache-Control: no-cache
+content-type: application/json
+
+{     "id" : 28, "name" : "豆腐干",     "price" : 8.8,     "flavor" : "五香",     "tid" : 2 }
+
+<> 2019-11-14T045323.200.json
+
+###
+
+GET http://localhost:7000/zuul/server/client/client/server/menu/get/1
+Accept: */*
+Cache-Control: no-cache
+content-type: application/json
+
+{     "id" : 28, "name" : "豆腐干",     "price" : 8.8,     "flavor" : "五香",     "tid" : 2 }
+
+<> 2019-11-14T045313.200.json
+
+###
+
+GET http://localhost:7000/zuul/server/client/client/server/menu/get/1
+Accept: */*
+Cache-Control: no-cache
+content-type: application/json
+
+{     "id" : 28, "name" : "豆腐干",     "price" : 8.8,     "flavor" : "五香",     "tid" : 2 }
+
+<> 2019-11-14T045228.200.json
+
+###
+
+GET http://localhost:7000/zuul/server/client/client/server/menu/get/1
+Accept: */*
+Cache-Control: no-cache
+content-type: application/json
+
+{     "id" : 28, "name" : "豆腐干",     "price" : 8.8,     "flavor" : "五香",     "tid" : 2 }
+
+<> 2019-11-14T045226.200.json
+
+###
+
+GET http://localhost:7000/zuul/server/client/client/server/menu/get/1
+Accept: */*
+Cache-Control: no-cache
+content-type: application/json
+
+{     "id" : 28, "name" : "豆腐干",     "price" : 8.8,     "flavor" : "五香",     "tid" : 2 }
+
+<> 2019-11-14T045207.200.json
+
+###
+
+GET http://localhost:7000/zuul/server/client/client/server/menu/get/1
+Accept: */*
+Cache-Control: no-cache
+content-type: application/json
+
+{     "id" : 28, "name" : "豆腐干",     "price" : 8.8,     "flavor" : "五香",     "tid" : 2 }
+
+<> 2019-11-14T044826.504.json
+
+###
+
+GET http://localhost:7000/zuul/server/client/client/server/get/1
+Accept: */*
+Cache-Control: no-cache
+content-type: application/json
+
+{     "id" : 28, "name" : "豆腐干",     "price" : 8.8,     "flavor" : "五香",     "tid" : 2 }
+
+<> 2019-11-14T044725.404.json
+
+###
+
+GET http://localhost:7000/zuul/server/client/client/server/get/1
+Accept: */*
+Cache-Control: no-cache
+content-type: application/json
+
+{     "id" : 28, "name" : "豆腐干",     "price" : 8.8,     "flavor" : "五香",     "tid" : 2 }
+
+<> 2019-11-14T044641.404.json
+
+###
+
+GET http://localhost:7000/zuul/server/menu/server/menu/server/get/1
+Accept: */*
+Cache-Control: no-cache
+content-type: application/json
+
+{     "id" : 28, "name" : "豆腐干",     "price" : 8.8,     "flavor" : "五香",     "tid" : 2 }
+
+<> 2019-11-14T032231.200.json
+
+###
+
+GET http://localhost:7000/zuul/server/menu/server/get/1
+Accept: */*
+Cache-Control: no-cache
+content-type: application/json
+
+{     "id" : 28, "name" : "豆腐干",     "price" : 8.8,     "flavor" : "五香",     "tid" : 2 }
+
+###
+
+GET http://localhost:7000/zuul/server/menu/server/get/1
+Accept: */*
+Cache-Control: no-cache
+content-type: application/json
+
+{     "id" : 28, "name" : "豆腐干",     "price" : 8.8,     "flavor" : "五香",     "tid" : 2 }
+
+###
+
+GET http://localhost:7000/zuul/server/menu/server/get/1%20
+Accept: */*
+Cache-Control: no-cache
+content-type: application/json
+
+{     "id" : 28, "name" : "豆腐干",     "price" : 8.8,     "flavor" : "五香",     "tid" : 2 }
+
+###
+
+GET http://localhost:7000/zuul/server/menu/server/get/1%20
+Accept: */*
+Cache-Control: no-cache
+content-type: application/json
+
+{     "id" : 28, "name" : "豆腐干",     "price" : 8.8,     "flavor" : "五香",     "tid" : 2 }
+
+###
+
+GET http://localhost:7000/zuul/server/zuul/menu/server/get/1%20
+Accept: */*
+Cache-Control: no-cache
+content-type: application/json
+
+{     "id" : 28, "name" : "豆腐干",     "price" : 8.8,     "flavor" : "五香",     "tid" : 2 }
+
+###
+
+GET http://localhost:7000/zuul/server/zuul/menu/server/get/1%20
+Accept: */*
+Cache-Control: no-cache
+content-type: application/json
+
+{     "id" : 28, "name" : "豆腐干",     "price" : 8.8,     "flavor" : "五香",     "tid" : 2 }
+
+###
+
+GET http://localhost:7000/zuul/server/menu/server/get/1%20
+Accept: */*
+Cache-Control: no-cache
+content-type: application/json
+
+{     "id" : 28, "name" : "豆腐干",     "price" : 8.8,     "flavor" : "五香",     "tid" : 2 }
+
+###
+
+GET http://localhost:7000/zuul/server/menu/server/get/1%20
+Accept: */*
+Cache-Control: no-cache
+content-type: application/json
+
+{     "id" : 28, "name" : "豆腐干",     "price" : 8.8,     "flavor" : "五香",     "tid" : 2 }
+
+###
+
+GET http://localhost:7000/zuul/server/menu/server/get/1%20
+Accept: */*
+Cache-Control: no-cache
+content-type: application/json
+
+{     "id" : 28, "name" : "豆腐干",     "price" : 8.8,     "flavor" : "五香",     "tid" : 2 }
+
+###
+
+GET http://localhost:7000/zuul/server/menu/server/get/1%20
+Accept: */*
+Cache-Control: no-cache
+content-type: application/json
+
+{     "id" : 28, "name" : "豆腐干",     "price" : 8.8,     "flavor" : "五香",     "tid" : 2 }
+
+###
+
+GET http://localhost:7003/order/server
+Accept: */*
+Cache-Control: no-cache
+content-type: application/json
+
+{     "id" : 28, "name" : "豆腐干",     "price" : 8.8,     "flavor" : "五香",     "tid" : 2 }
+
+<> 2019-11-14T015011.200.txt
+
+###
+
+GET http://localhost:7003/order/server/{[],methods=[GET]}
+
+###
+
+DELETE http://localhost:7005/client/server/menu/delete/28
+Accept: */*
+Cache-Control: no-cache
+content-type: application/json
+
+{     "id" : 28, "name" : "豆腐干",     "price" : 8.8,     "flavor" : "五香",     "tid" : 2 }
+
+<> 2019-11-14T094624.200.json
+
+###
+
+PUT http://localhost:7005/client/server/menu/put
+Accept: */*
+Cache-Control: no-cache
+content-type: application/json
+
+{     "id" : 28, "name" : "豆腐干",     "price" : 8.8,     "flavor" : "五香",     "tid" : 2 }
+
+<> 2019-11-14T094603.200.json
+
+###
+
+GET http://localhost:7005/client/server/menu/get/28
+Accept: */*
+Cache-Control: no-cache
+content-type: application/json
+
+{     "name" : "豆腐干",     "price" : 18.8,     "flavor" : "五香",     "tid" : 2 }
+
+<> 2019-11-14T094521.200.json
+
+###
+
+POST http://localhost:7005/client/server/menu/post
+Accept: */*
+Cache-Control: no-cache
+content-type: application/json
+
+{     "name" : "豆腐干",     "price" : 18.8,     "flavor" : "五香",     "tid" : 2 }
+
+<> 2019-11-14T094431.200.json
+
+###
+
+POST http://localhost:7005/client/server/menu/post
+Accept: */*
+Cache-Control: no-cache
+
+{     "name" : "豆腐干",     "price" : 18.8,     "flavor" : "五香",     "tid" : 2 }
+
+<> 2019-11-14T094230.415.json
+
+###
+
+GET http://localhost:7005/client/server/menu/types?page=1&limit=5
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-11-14T093929.200.json
+
+###
+
+GET http://localhost:7005/client/server/menu/list?page=1&limit=5
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-11-14T093856.200.json
+
+###
+
+GET http://localhost:7005/consume/client/menu/list?page=1&limit=5
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-11-13T031511.200.json
+
+###
+
+GET http://localhost:7005/consume/client/menu/list?page=1&limit=5
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-11-13T031253.200.json
+
+###
+
+GET http://localhost:7005/consume/client/menu/list?page=1&limit=5
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-11-13T031246.500.json
+
+###
+
+GET http://localhost:7005/consume/client/menu/list?page=1&limit=5
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-11-13T031235.200.json
+
+###
+
+GET http://localhost:7005/consume/client/menu/list?page=1&limit=5
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-11-13T025946.200.json
+
+###
+
+GET http://localhost:7005/consume/client/menu/list?page=1&limit=5
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-11-13T025920.500.json
+
+###
+
+GET http://localhost:7005/consume/client/menu/list?page=1&limit=5
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-11-13T025244.500.json
+
+###
+
+GET http://localhost:7005/consume/client/menu/list?page=1&limit=5
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-11-13T025209.500.json
+
+###
+
+GET http://localhost:7005/consume/client/menu/list?page=1&limit=5
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-11-13T025203.500.json
+
+###
+
+GET http://localhost:7005/consume/client/menu/list?page=1&limit=5
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-11-13T025201.500.json
+
+###
+
+GET http://localhost:7005/consume/client/menu/list?page=1&limit=5
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-11-13T025156.500.json
+
+###
+
+GET http://localhost:7005/consume/client/menu/list?page=1&limit=5
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-11-13T025034.500.json
+
+###
+
+GET http://localhost:7005/consume/client/menu/list?page=1&limit=5
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-11-13T024918.500.json
+
+###
+
+GET http://localhost:7005/consume/client/menu/list?page=1&limit=5
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-11-13T024911.500.json
+
+###
+
+GET http://localhost:7005/consume/client/menu/list?page=1&limit=5
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-11-13T024837.500.json
+
+###
+
+GET http://localhost:7005/consume/client/menu/list?page=1&limit=5
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-11-13T024824.500.json
+
+###
+
+GET http://localhost:7005/consume/client/menu/list?page=1&limit=5
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-11-13T024332.500.json
+
+###
+
+GET http://localhost:7005/consume/client/menu/list?page=1&limit=5
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-11-13T024235.500.json
+
+###
+
+GET http://localhost:7005/consume/client/menu/list?page=1&limit=5
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-11-13T024215.500.json
+
+###
+
+GET http://localhost:7005/consume/client/menu/list?page=1&limit=5
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-11-13T023019.500.json
+
+###
+

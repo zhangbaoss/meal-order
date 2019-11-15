@@ -1,0 +1,62 @@
+{
+  "code": 200,
+  "msg": "OK",
+  "count": 12,
+  "data": [
+    {
+      "id": 1,
+      "name": "香酥鸡",
+      "price": 39.0,
+      "flavor": "五香",
+      "tid": 1,
+      "type": {
+        "id": 1,
+        "name": "热菜"
+      }
+    },
+    {
+      "id": 2,
+      "name": "烧椒扣肉",
+      "price": 46.0,
+      "flavor": "微辣",
+      "tid": 1,
+      "type": {
+        "id": 1,
+        "name": "热菜"
+      }
+    },
+    {
+      "id": 3,
+      "name": "栗子三杯鸡",
+      "price": 56.0,
+      "flavor": "五香",
+      "tid": 1,
+      "type": {
+        "id": 1,
+        "name": "热菜"
+      }
+    },
+    {
+      "id": 4,
+      "name": "毛血旺",
+      "price": 50.0,
+      "flavor": "麻辣",
+      "tid": 1,
+      "type": {
+        "id": 1,
+        "name": "热菜"
+      }
+    },
+    {
+      "id": 5,
+      "name": "菠菜拌粉丝",
+      "price": 22.0,
+      "flavor": "五香",
+      "tid": 2,
+      "type": {
+        "id": 2,
+        "name": "凉菜"
+      }
+    }
+  ]
+}

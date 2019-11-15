@@ -1,0 +1,12 @@
+spring:
+  # ${application.name}-${profiles.active}.yml组合起来的字符就是从config-server中读取的配置文件名,
+  # 即该微服务从配置中心应该获取menu-server-dev.yml配置文件
+  application:
+    name: menu-server
+  profiles:
+    active: dev
+  # 配置中心地址,从哪个地址的配置中心中获取配置文件
+  cloud:
+    config:
+      uri: http://118.190.162.48:7002
+      fail-fast: true

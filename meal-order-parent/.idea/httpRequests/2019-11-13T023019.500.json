@@ -1,0 +1,7 @@
+{
+  "timestamp": "2019-11-13T06:30:19.464+0000",
+  "status": 500,
+  "error": "Internal Server Error",
+  "message": "Read timed out executing GET http://menu-server/menu/server/list?pageNum=0&pageSize=5",
+  "path": "/consume/client/menu/list"
+}

@@ -1,0 +1,16 @@
+server:
+  port: 7001
+eureka:
+  client:
+    # eureka放到服务器上启动时使用驼峰命名更改下划线配置,如使用serviceUrl替换掉service-url
+    # 否则Connection refused: connect, Cannot execute request on any known server
+    serviceUrl:
+      defaultZone: http://localhost:7001/eureka/
+    # 是否将自己注册进注册中心
+    register-with-eureka: false
+    # 是否从其它注册中心获取
+    fetch-registry: false
+logging:
+  level:
+    root: info
+  file: ./log/eureka-server.log

@@ -1,0 +1,24 @@
+server:
+  port: 7002
+spring:
+  application:
+    name: config-server
+  # 从本地读取配置文件,可选git,svn...
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        native:
+          # 其它微服务获取的配置文件位置
+          search-locations: classpath:/config
+        git:
+          uri:
+          username:
+          password:
+          force-pull: true
+          default-label: master
+logging:
+  level:
+    root: info
+  file: ./log/config-server.log

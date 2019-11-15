@@ -1,0 +1,7 @@
+{
+  "timestamp": "2019-11-13T06:42:15.364+0000",
+  "status": 500,
+  "error": "Internal Server Error",
+  "message": "status 500 reading MenuFeign#list(int,int); content:\n{\"timestamp\":\"2019-11-13T06:42:15.057+0000\",\"status\":500,\"error\":\"Internal Server Error\",\"message\":\"nested exception is org.apache.ibatis.exceptions.TooManyResultsException: Expected one result (or null) to be returned by selectOne(), but found: 5\",\"path\":\"/menu/server/list\"}",
+  "path": "/consume/client/menu/list"
+}

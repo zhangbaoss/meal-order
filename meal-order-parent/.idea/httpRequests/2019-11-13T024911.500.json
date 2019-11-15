@@ -1,0 +1,7 @@
+{
+  "timestamp": "2019-11-13T06:49:11.324+0000",
+  "status": 500,
+  "error": "Internal Server Error",
+  "message": "status 500 reading MenuFeign#list(int,int); content:\n{\"timestamp\":\"2019-11-13T06:49:11.319+0000\",\"status\":500,\"error\":\"Internal Server Error\",\"message\":\"当前实体类不包含名为id的属性!\",\"path\":\"/menu/server/list\"}",
+  "path": "/consume/client/menu/list"
+}
