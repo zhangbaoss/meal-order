@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="13d0aea6-bad6-4851-b18b-7bb62546ca9f" name="Default Changelist" comment="" />
+    <list default="true" id="13d0aea6-bad6-4851-b18b-7bb62546ca9f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account-server/src/main/java/com/zhangbao/controller/AccountController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account-server/src/main/java/com/zhangbao/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account-server/src/main/java/com/zhangbao/service/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account-server/src/main/java/com/zhangbao/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapper-pojo/src/main/java/com/zhangbao/pojo/AdminPoJo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/eureka-server/target/" />
@@ -13,6 +24,8 @@
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
     <ignored path="$PROJECT_DIR$/client-server/target/" />
     <ignored path="$PROJECT_DIR$/zuul-server/target/" />
+    <ignored path="$PROJECT_DIR$/user-server/target/" />
+    <ignored path="$PROJECT_DIR$/account-server/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,19 +35,118 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-server/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/account-server/src/main/java/com/zhangbao/controller/AccountController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+            <state relative-caret-position="252">
+              <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/account-server/src/main/java/com/zhangbao/service/AccountService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="214">
+              <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client-server/src/main/java/com/zhangbao/handler/UserHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+              <folding>
+                <element signature="e#1122#1123#0" expanded="true" />
+                <element signature="e#1168#1169#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/account-server/src/main/java/com/zhangbao/service/impl/AccountServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="36" column="23" lean-forward="true" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/order-server/src/main/resources/bootstrap.yml">
+        <entry file="file://$PROJECT_DIR$/account-server/src/main/java/com/zhangbao/AccountServerApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+            <state relative-caret-position="266">
+              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#425#426#0" expanded="true" />
+                <element signature="e#500#501#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client-server/src/main/java/com/zhangbao/feign/UserFeign.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/account-server/src/main/java/com/zhangbao/mapper/AdminMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/account-server/src/main/java/com/zhangbao/mapper/UserMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mapper-pojo/src/main/java/com/zhangbao/pojo/AdminPoJo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mapper-pojo/src/main/java/com/zhangbao/pojo/UserPoJo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -54,29 +166,12 @@
       <find>modified</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/order-server/src/main/java/com/zhangbao/OrderServerApplication.java" />
-        <option value="$PROJECT_DIR$/order-server/pom.xml" />
-        <option value="$PROJECT_DIR$/menu-server/src/main/java/com/zhangbao/entity/Menu.java" />
-        <option value="$PROJECT_DIR$/menu-server/pom.xml" />
-        <option value="$PROJECT_DIR$/mapper-pojo/src/main/java/com/zhangbao/request/RequestForm.java" />
-        <option value="$PROJECT_DIR$/mapper-pojo/src/main/java/com/zhangbao/response/PageResult.java" />
-        <option value="$PROJECT_DIR$/mapper-pojo/src/main/java/com/zhangbao/pojo/Menu.java" />
-        <option value="$PROJECT_DIR$/menu-server/src/main/java/com/zhangbao/MenuServerApplication.java" />
-        <option value="$PROJECT_DIR$/mapper-pojo/src/main/java/com/zhangbao/vo/MenuVo.java" />
-        <option value="$PROJECT_DIR$/consume-client/pom.xml" />
-        <option value="$PROJECT_DIR$/consume-client/src/main/java/com/zhangbao/ConsumeClientApplication.java" />
-        <option value="$PROJECT_DIR$/consume-client/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/config-server/src/main/resources/config/consume-client-dev.yml" />
-        <option value="$PROJECT_DIR$/consume-client/src/main/java/com/zhangbao/controller/MenuController.java" />
-        <option value="$PROJECT_DIR$/order-server/src/main/java/com/zhangbao/controller/OrderController.java" />
-        <option value="$PROJECT_DIR$/consume-client/src/main/java/com/zhangbao/controller/MenuHandler.java" />
-        <option value="$PROJECT_DIR$/consume-client/src/main/resources/static/index.html" />
-        <option value="$PROJECT_DIR$/mapper-pojo/src/main/java/com/zhangbao/bo/MenuBo.java" />
-        <option value="$PROJECT_DIR$/menu-server/src/main/resources/mapper/MenuMapper.xml" />
-        <option value="$PROJECT_DIR$/menu-server/src/main/java/com/zhangbao/mapper/TypeMapper.java" />
         <option value="$PROJECT_DIR$/menu-server/src/main/java/com/zhangbao/mapper/MenuMapper.java" />
         <option value="$PROJECT_DIR$/consume-client/src/main/java/com/zhangbao/feign/MenuFeign.java" />
         <option value="$PROJECT_DIR$/mapper-pojo/src/main/java/com/zhangbao/pojo/TypePoJo.java" />
@@ -91,7 +186,6 @@
         <option value="restClient/response4.txt" />
         <option value="restClient/response5.txt" />
         <option value="restClient/response12.txt" />
-        <option value="$PROJECT_DIR$/zuul-server/src/main/java/com/zhangbao/ZuulServerApplication.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
         <option value="$PROJECT_DIR$/config-server/pom.xml" />
@@ -108,6 +202,27 @@
         <option value="$PROJECT_DIR$/config-server/src/main/resources/config/client-server-dev.yml" />
         <option value="$PROJECT_DIR$/config-server/src/main/resources/config/menu-server-dev.yml" />
         <option value="$PROJECT_DIR$/config-server/src/main/resources/config/zuul-server-dev.yml" />
+        <option value="$PROJECT_DIR$/mapper-pojo/src/main/java/com/zhangbao/pojo/UserPoJo.java" />
+        <option value="$PROJECT_DIR$/user-server/pom.xml" />
+        <option value="$PROJECT_DIR$/config-server/src/main/resources/config/user-server-dev.yml" />
+        <option value="$PROJECT_DIR$/user-server/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/user-server/src/main/java/com/zhangbao/UserServerApplication.java" />
+        <option value="$PROJECT_DIR$/user-server/src/main/java/com/zhangbao/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/user-server/src/main/java/com/zhangbao/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/user-server/src/main/java/com/zhangbao/service/UserService.java" />
+        <option value="$PROJECT_DIR$/user-server/src/main/java/com/zhangbao/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/client-server/src/main/java/com/zhangbao/feign/UserFeign.java" />
+        <option value="$PROJECT_DIR$/client-server/src/main/java/com/zhangbao/handler/UserHandler.java" />
+        <option value="$PROJECT_DIR$/zuul-server/src/main/java/com/zhangbao/filter/AccessFilter.java" />
+        <option value="$PROJECT_DIR$/zuul-server/src/main/java/com/zhangbao/ZuulServerApplication.java" />
+        <option value="$PROJECT_DIR$/account-server/pom.xml" />
+        <option value="$PROJECT_DIR$/account-server/src/main/java/com/zhangbao/AccountServerApplication.java" />
+        <option value="$PROJECT_DIR$/account-server/src/main/java/com/zhangbao/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/mapper-pojo/src/main/java/com/zhangbao/pojo/AdminPoJo.java" />
+        <option value="$PROJECT_DIR$/account-server/src/main/java/com/zhangbao/mapper/AdminMapper.java" />
+        <option value="$PROJECT_DIR$/account-server/src/main/java/com/zhangbao/service/impl/AccountServiceImpl.java" />
+        <option value="$PROJECT_DIR$/account-server/src/main/java/com/zhangbao/service/AccountService.java" />
+        <option value="$PROJECT_DIR$/account-server/src/main/java/com/zhangbao/controller/AccountController.java" />
       </list>
     </option>
   </component>
@@ -154,6 +269,7 @@
     <option name="width" value="819" />
     <option name="height" value="745" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -171,25 +287,25 @@
             <path>
               <item name="meal-order-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="meal-order-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="config-server" type="462c0819:PsiDirectoryNode" />
+              <item name="account-server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="meal-order-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="meal-order-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="config-server" type="462c0819:PsiDirectoryNode" />
+              <item name="account-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="meal-order-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="meal-order-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="config-server" type="462c0819:PsiDirectoryNode" />
+              <item name="account-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="meal-order-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="meal-order-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="config-server" type="462c0819:PsiDirectoryNode" />
+              <item name="account-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -197,7 +313,7 @@
             <path>
               <item name="meal-order-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="meal-order-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="config-server" type="462c0819:PsiDirectoryNode" />
+              <item name="account-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -206,7 +322,48 @@
             <path>
               <item name="meal-order-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="meal-order-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="config-server" type="462c0819:PsiDirectoryNode" />
+              <item name="account-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zhangbao" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="meal-order-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="meal-order-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="account-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zhangbao" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="meal-order-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="meal-order-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="account-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zhangbao" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="meal-order-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="meal-order-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="account-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zhangbao" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="meal-order-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="meal-order-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="account-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -214,89 +371,102 @@
             <path>
               <item name="meal-order-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="meal-order-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="config-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="client-server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="meal-order-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="meal-order-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="meal-order-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="meal-order-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="client-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="meal-order-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="meal-order-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="client-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="meal-order-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="meal-order-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="client-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="meal-order-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="meal-order-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="menu-server" type="462c0819:PsiDirectoryNode" />
+              <item name="client-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zhangbao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="meal-order-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="meal-order-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="menu-server" type="462c0819:PsiDirectoryNode" />
+              <item name="client-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zhangbao" type="462c0819:PsiDirectoryNode" />
+              <item name="feign" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="meal-order-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="meal-order-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="client-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zhangbao" type="462c0819:PsiDirectoryNode" />
+              <item name="handler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="meal-order-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="meal-order-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper-pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="meal-order-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="meal-order-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper-pojo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="meal-order-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="meal-order-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="menu-server" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper-pojo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="meal-order-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="meal-order-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="menu-server" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper-pojo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="meal-order-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="meal-order-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="order-server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="meal-order-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="meal-order-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="order-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="meal-order-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="meal-order-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="order-server" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper-pojo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zhangbao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="meal-order-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="meal-order-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="order-server" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper-pojo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zhangbao" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -311,7 +481,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573788077362" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574041458412" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/client-server" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -322,18 +492,19 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\17-个人项目\13-meal-order\meal-order-parent\eureka-server\src\test" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zhangbao.handler" />
+      <recent name="com.zhangbao.feign" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\17-个人项目\13-meal-order\meal-order-parent\config-server\src\main\resources\config" />
       <recent name="D:\17-个人项目\13-meal-order\meal-order-parent\client-server\src\main\resources" />
       <recent name="D:\17-个人项目\13-meal-order\meal-order-parent\menu-server\src\main\resources\mapper" />
       <recent name="D:\17-个人项目\13-meal-order\meal-order-parent\consume-client\src\main\resources" />
       <recent name="D:\17-个人项目\13-meal-order\meal-order-parent\menu-server\src\main\resources" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.zhangbao.feign" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\17-个人项目\13-meal-order\meal-order-parent\eureka-server\src\test" />
     </key>
   </component>
   <component name="RestClientSettings">
@@ -858,7 +1029,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ZuulServerApplication">
+  <component name="RunManager" selected="Spring Boot.AccountServerApplication">
+    <configuration name="AccountServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="account-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhangbao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhangbao.AccountServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ClientServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="client-server" />
       <extension name="coverage">
@@ -926,34 +1110,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZuulServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="zuul-server" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zhangbao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhangbao.ZuulServerApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Spring Boot.EurekaServerApplication" />
       <item itemvalue="Spring Boot.ConfigServerApplication" />
       <item itemvalue="Spring Boot.OrderServerApplication" />
       <item itemvalue="Spring Boot.MenuServerApplication" />
       <item itemvalue="Spring Boot.ClientServerApplication" />
-      <item itemvalue="Spring Boot.ZuulServerApplication" />
+      <item itemvalue="Spring Boot.AccountServerApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.AccountServerApplication" />
         <item itemvalue="Spring Boot.OrderServerApplication" />
-        <item itemvalue="Spring Boot.MenuServerApplication" />
         <item itemvalue="Spring Boot.ConfigServerApplication" />
+        <item itemvalue="Spring Boot.MenuServerApplication" />
         <item itemvalue="Spring Boot.ClientServerApplication" />
-        <item itemvalue="Spring Boot.ZuulServerApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -975,17 +1146,20 @@
       <workItem from="1573637034072" duration="1983000" />
       <workItem from="1573693647952" duration="22076000" />
       <workItem from="1573735888672" duration="3808000" />
-      <workItem from="1573780363390" duration="6837000" />
+      <workItem from="1573780363390" duration="16672000" />
+      <workItem from="1573868573906" duration="4764000" />
+      <workItem from="1574038992054" duration="1883000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73661000" />
+    <option name="totallyTimeSpent" value="90143000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49919486" visible="true" weight="0.27987897" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49919486" visible="true" weight="0.28895614" />
       <window_info id="Structure" order="1" sideWeight="0.50080514" side_tool="true" weight="0.2647504" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1011,7 +1185,7 @@
       <window_info anchor="bottom" id="Database Changes" order="14" />
       <window_info anchor="bottom" id="Version Control" order="15" />
       <window_info anchor="bottom" id="REST Client" order="16" weight="0.49275362" />
-      <window_info anchor="bottom" id="Run Dashboard" order="17" visible="true" weight="0.32850242" />
+      <window_info anchor="bottom" id="Run Dashboard" order="17" visible="true" weight="0.32903227" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1086,214 +1260,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-zuul/2.0.2.RELEASE/spring-cloud-netflix-zuul-2.0.2.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/filters/ZuulProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30">
-          <caret line="669" column="34" selection-start-line="669" selection-start-column="34" selection-end-line="669" selection-end-column="34" />
-          <folding>
-            <element signature="e#19788#19789#0" expanded="true" />
-            <element signature="e#19808#19809#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-zuul/2.0.2.RELEASE/spring-cloud-netflix-zuul-2.0.2.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/filters/discovery/DiscoveryClientRouteLocator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-380">
-          <caret line="100" column="47" selection-start-line="100" selection-start-column="47" selection-end-line="100" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-zuul/2.0.2.RELEASE/spring-cloud-netflix-zuul-2.0.2.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/filters/RouteLocator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="39" column="10" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-zuul/2.0.2.RELEASE/spring-cloud-netflix-zuul-2.0.2.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/filters/SimpleRouteLocator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="83" column="24" selection-start-line="83" selection-start-column="24" selection-end-line="83" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-zuul/2.0.2.RELEASE/spring-cloud-netflix-zuul-2.0.2.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/filters/support/FilterConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="45" column="31" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-zuul/2.0.2.RELEASE/spring-cloud-netflix-zuul-2.0.2.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/filters/pre/PreDecorationFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="112" column="18" selection-start-line="112" selection-start-column="18" selection-end-line="112" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/zuul/zuul-core/1.3.1/zuul-core-1.3.1-sources.jar!/com/netflix/zuul/ZuulFilterResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-openfeign-core/2.0.2.RELEASE/spring-cloud-openfeign-core-2.0.2.RELEASE.jar!/org/springframework/cloud/openfeign/FeignClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-openfeign-core/2.0.2.RELEASE/spring-cloud-openfeign-core-2.0.2.RELEASE-sources.jar!/org/springframework/cloud/openfeign/FeignClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-zuul/2.0.2.RELEASE/spring-cloud-netflix-zuul-2.0.2.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/filters/route/RibbonCommandFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-core/1.5.12/hystrix-core-1.5.12.jar!/com/netflix/hystrix/HystrixExecutable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-zuul/2.0.2.RELEASE/spring-cloud-netflix-zuul-2.0.2.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/filters/route/RibbonRoutingFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="156" column="44" lean-forward="true" selection-start-line="156" selection-start-column="44" selection-end-line="156" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/zuul/zuul-core/1.3.1/zuul-core-1.3.1-sources.jar!/com/netflix/zuul/IZuulFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="40" column="11" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/zuul/zuul-core/1.3.1/zuul-core-1.3.1-sources.jar!/com/netflix/zuul/ZuulFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="116" column="34" lean-forward="true" selection-start-line="116" selection-start-column="34" selection-end-line="116" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/zuul/zuul-core/1.3.1/zuul-core-1.3.1-sources.jar!/com/netflix/zuul/FilterProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="192" column="48" lean-forward="true" selection-start-line="192" selection-start-column="48" selection-end-line="192" selection-end-column="48" />
-          <folding>
-            <element signature="e#1917#1918#0" expanded="true" />
-            <element signature="e#1948#1949#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/zuul/zuul-core/1.3.1/zuul-core-1.3.1-sources.jar!/com/netflix/zuul/ZuulRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="95" column="40" selection-start-line="95" selection-start-column="40" selection-end-line="95" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/zuul/zuul-core/1.3.1/zuul-core-1.3.1-sources.jar!/com/netflix/zuul/http/ZuulServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="115" column="23" selection-start-line="115" selection-start-column="23" selection-end-line="115" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zuul-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="50" column="12" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zuul-server/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client-server/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/github/openfeign/feign-core/9.7.0/feign-core-9.7.0.jar!/feign/ReflectiveFeign.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="348" selection-start-line="348" selection-end-line="348" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/github/openfeign/feign-core/9.7.0/feign-core-9.7.0-sources.jar!/feign/Request.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
-          <folding>
-            <element signature="e#2033#2034#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mapper-pojo/src/main/java/com/zhangbao/pojo/MenuPoJo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="24" column="40" lean-forward="true" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-openfeign-core/2.0.2.RELEASE/spring-cloud-openfeign-core-2.0.2.RELEASE-sources.jar!/org/springframework/cloud/openfeign/ribbon/LoadBalancerFeignClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="64" column="9" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/github/openfeign/feign-core/9.7.0/feign-core-9.7.0-sources.jar!/feign/SynchronousMethodHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="97" selection-start-line="97" selection-end-line="97" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/github/openfeign/feign-core/9.7.0/feign-core-9.7.0-sources.jar!/feign/Feign.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2882">
-          <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/github/openfeign/feign-core/9.7.0/feign-core-9.7.0.jar!/META-INF/maven/io.github.openfeign/feign-core/pom.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/github/openfeign/feign-core/9.7.0/feign-core-9.7.0.jar!/META-INF/maven/io.github.openfeign/feign-core/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-298" />
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/github/openfeign/feign-core/9.7.0/feign-core-9.7.0-sources.jar!/feign/Types.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1398">
@@ -1363,13 +1329,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client-server/src/main/java/com/zhangbao/ClientServerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -1381,11 +1340,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/log/config-server.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1048" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/log/config-server.log" />
     <entry file="file://$PROJECT_DIR$/client-server/src/main/java/com/zhangbao/feign/MenuFeign.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="163">
@@ -1415,20 +1370,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/menu-server/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/config/zuul-server-dev.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
@@ -1443,13 +1384,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/config/client-server-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/config/order-server-dev.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -1457,10 +1391,273 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/config/client-server-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/order-server/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        <state relative-caret-position="209">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/menu-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="53" column="28" selection-start-line="53" selection-start-column="28" selection-end-line="53" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="52" column="24" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/menu-server/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-server/src/main/java/com/zhangbao/UserServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-server/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/config/user-server-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1083">
+          <caret line="57" column="28" selection-start-line="57" selection-start-column="28" selection-end-line="57" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-server/src/main/java/com/zhangbao/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-zuul/2.0.2.RELEASE/spring-cloud-netflix-zuul-2.0.2.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/filters/pre/PreDecorationFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="101" column="17" selection-start-line="101" selection-start-column="17" selection-end-line="101" selection-end-column="17" />
+          <folding>
+            <element signature="e#4832#4833#0" expanded="true" />
+            <element signature="e#4854#4855#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/zuul/zuul-core/1.3.1/zuul-core-1.3.1-sources.jar!/com/netflix/zuul/ZuulFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="67" column="27" selection-start-line="67" selection-start-column="27" selection-end-line="67" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-zuul/2.0.2.RELEASE/spring-cloud-netflix-zuul-2.0.2.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/filters/support/FilterConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="92" column="39" lean-forward="true" selection-start-line="92" selection-start-column="39" selection-end-line="92" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul-server/src/main/java/com/zhangbao/filter/AccessFilter.java" />
+    <entry file="file://$PROJECT_DIR$/account-server/src/main/resources/bootstarp.yml" />
+    <entry file="file://$PROJECT_DIR$/user-server/src/main/java/com/zhangbao/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-server/src/main/java/com/zhangbao/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="41" column="7" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-server/src/main/java/com/zhangbao/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul-server/src/main/java/com/zhangbao/ZuulServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="912">
+          <caret line="48" column="21" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account-server/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/menu-server/src/main/java/com/zhangbao/service/impl/MenuServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1273">
+          <caret line="82" column="25" selection-start-line="82" selection-start-column="25" selection-end-line="82" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-base/1.0.1/mapper-base-1.0.1-sources.jar!/tk/mybatis/mapper/common/example/SelectOneByExampleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="45" column="15" selection-start-line="45" selection-start-column="15" selection-end-line="45" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client-server/src/main/java/com/zhangbao/feign/UserFeign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account-server/src/main/java/com/zhangbao/mapper/AdminMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account-server/src/main/java/com/zhangbao/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapper-pojo/src/main/java/com/zhangbao/pojo/AdminPoJo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapper-pojo/src/main/java/com/zhangbao/pojo/UserPoJo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client-server/src/main/java/com/zhangbao/handler/UserHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <element signature="e#1122#1123#0" expanded="true" />
+            <element signature="e#1168#1169#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account-server/src/main/java/com/zhangbao/controller/AccountController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account-server/src/main/java/com/zhangbao/service/AccountService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account-server/src/main/java/com/zhangbao/service/impl/AccountServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="36" column="23" lean-forward="true" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account-server/src/main/java/com/zhangbao/AccountServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,0 +1,59 @@
+server:
+  port: 7006
+  servlet:
+    context-path: /user/server
+spring:
+  datasource:
+    url: jdbc:mysql://118.190.162.48:3306/meal-order?characterEncoding=utf8&useSSL=false&serverTimezone=GMT%2B8
+    username: zhangbao
+    password: zhangbao
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+
+    ################################ START #############################################
+    # 下面配置需要结合DruidDatasourceConfig来使用
+    initialSize: 5
+    minIdle: 5
+    maxActive: 20
+    maxWait: 60000
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 300000
+    validationQuery: SELECT 1 FROM DUAL
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+    poolPreparedStatements: true
+    # 配置监控统计拦截的filters，去掉后监控界面sql无法统计，'wall'用于防火墙
+    filters: stat,wall
+    maxPoolPreparedStatementPerConnectionSize: 20
+    useGlobalDataSourceStat: true
+    connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=500
+    ################################ END #############################################
+
+eureka:
+  client:
+    # eureka放到服务器上启动时使用驼峰命名更改下划线配置,如使用serviceUrl替换掉service-url
+    # 否则Connection refused: connect, Cannot execute request on any known server
+    serviceUrl:
+      defaultZone: http://118.190.162.48:7001/eureka
+    # 服务多久从eureka拉取注册信息,默认为30秒,网关应用如果要迅速获取服务注册状态可以修改为5秒
+    registry-fetch-interval-seconds: 30
+
+  instance:
+    # 修改服务id不包含主机名等无用信息
+    instance-id: user-server
+    # 鼠标悬浮服务id时显示ip信息
+    prefer-ip-address: true
+    # 5秒钟发送一次心跳
+    lease-renewal-interval-in-seconds: 5
+    # 10秒不发送就过期
+    lease-expiration-duration-in-seconds: 10
+    # 由于有context-path属性,所以需要修改健康监控页地址,否则在注册中心点击时不带有context-path路径
+    status-page-url: http://localhost:${server.port}/${server.servlet.context-path}/actuator/info
+
+# 服务信息
+info:
+  app.port: 7006
+  app.note: user-server
+  app.name: user-server-7006
+  company.name: www.zhangbao.com

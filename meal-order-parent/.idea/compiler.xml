@@ -7,12 +7,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="account-server" />
         <module name="client-server" />
         <module name="config-server" />
         <module name="eureka-server" />
         <module name="mapper-pojo" />
         <module name="menu-server" />
         <module name="order-server" />
+        <module name="user-server" />
         <module name="zuul-server" />
       </profile>
     </annotationProcessing>
@@ -20,6 +22,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="account-server" options="-parameters" />
       <module name="client-server" options="-parameters" />
       <module name="config-server" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
@@ -27,6 +30,7 @@
       <module name="meal-order-parent" options="-parameters" />
       <module name="menu-server" options="-parameters" />
       <module name="order-server" options="-parameters" />
+      <module name="user-server" options="-parameters" />
       <module name="zuul-server" options="-parameters" />
     </option>
   </component>

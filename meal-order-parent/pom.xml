@@ -16,6 +16,8 @@
         <module>mapper-pojo</module>
         <module>client-server</module>
         <module>zuul-server</module>
+        <module>user-server</module>
+        <module>account-server</module>
     </modules>
 
     <name>meal-order-parent</name>

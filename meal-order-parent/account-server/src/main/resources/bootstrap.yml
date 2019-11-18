@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: account-server
+  profiles:
+    active: dev
+  cloud:
+    config:
+      uri: http://118.190.162.48:7002
+      fail-fast: true
